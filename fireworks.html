@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 800px;
+            height: 600px;
+            background-color: #333;
+            margin: 100px auto;
+            position: relative;
+        }
+        .fire{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <!-- <p class="fire"></p> -->
+    </div>
+    <script src="js/tools.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        const box=document.querySelector(".box")
+        new Fireworks()
+    </script>
+</body>
+</html>
